@@ -45,21 +45,6 @@ public class DeEncryptedImageFetcher implements DataFetcher<InputStream> {
                 Log.d("TestOut", "图片加载错误！");
                 return;
             }
-            /*************************************************************/
-            /*************************************************************/
-            /******************    此处进行解密操作    *********************/
-            /************************************************************/
-            /************************************************************/
-            /*************** 返回解密后的数据流*****************************/
-
-//            byte[] data1 = EZGlobalSDK.getInstance().decryptData(src, enImageBean.getPassword());
-//            if (data1 == null || data1.length <= 0) {
-//                LogUtil.d("TestOut", "verifyCodeError！");
-//                /*************** 验证码错误 ,此处回调是在子线程中，处理UI需调回到主线程****************/
-//
-//            } else
-//                isBm = new ByteArrayInputStream(data1);
-
 
 
         } catch (IOException e) {
